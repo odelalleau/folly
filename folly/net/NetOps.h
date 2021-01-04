@@ -60,7 +60,7 @@
 #endif
 
 #ifdef FOLLY_HAVE_MSG_ERRQUEUE
-enum net_txtime_flags {
+enum class net_txtime_flags {
   SOF_TXTIME_DEADLINE_MODE = (1 << 0),
   SOF_TXTIME_REPORT_ERRORS = (1 << 1),
 
